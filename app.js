@@ -4,6 +4,7 @@ const app = express();
 import path from "path";
 app.use(express.static("public")) 
 
+
 // --- INDEX --- //
 app.get("/", (request, respone) => {
     respone.sendFile(path.resolve("public/index.html"))
