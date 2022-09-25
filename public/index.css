@@ -1,0 +1,10 @@
+html {
+    font-family: Consolas,monaco,monospace; 
+    background-color: rgb(245, 245, 247);
+
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+
